@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="BodegasCaballero">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="rrhh1">
+      <personalData/>
+      <professionalData>
+        <email>rrhh1@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="rrhh2">
+      <personalData/>
+      <professionalData>
+        <email>rrhh2@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="directivo1">
+      <personalData/>
+      <professionalData>
+        <email>directivo1@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="directivo2">
+      <personalData/>
+      <professionalData>
+        <email>directivo2@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="comercial1">
+      <personalData/>
+      <professionalData>
+        <email>comercial1@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="comercial2">
+      <personalData/>
+      <professionalData>
+        <email>comercial2@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="rrii1">
+      <personalData/>
+      <professionalData>
+        <email>rrii1@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="rrii2">
+      <personalData/>
+      <professionalData>
+        <email>rrii2@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="existencias1">
+      <personalData/>
+      <professionalData>
+        <email>existencias1@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="existencias2">
+      <personalData/>
+      <professionalData>
+        <email>existencias2@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="trabajador1">
+      <personalData/>
+      <professionalData>
+        <email>trabajador1@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="trabajador2">
+      <personalData/>
+      <professionalData>
+        <email>trabajador2@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="trabajador3">
+      <personalData/>
+      <professionalData>
+        <email>trabajador2@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="trabajador4">
+      <personalData/>
+      <professionalData>
+        <email>trabajador4@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="trabajador5">
+      <personalData/>
+      <professionalData>
+        <email>trabajador5@caballero.es</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Miembro">
+      <displayName>miembro</displayName>
+    </role>
+    <role name="Responsable división">
+      <displayName>responsable división</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Departamento RRHH">
+      <displayName>Departamento RRHH</displayName>
+    </group>
+    <group name="Directivos">
+      <displayName>Directivos</displayName>
+    </group>
+    <group name="Departamento Comercial">
+      <displayName>Departamento Comercial</displayName>
+    </group>
+    <group name="Departamento de Relaciones Internacionales">
+      <displayName>Departamento de Relaciones Internacionales</displayName>
+    </group>
+    <group name="Departamento de Existencias">
+      <displayName>Departamento de Existencias</displayName>
+    </group>
+    <group name="Departamento de Fabricación">
+      <displayName>Departamento de Fabricación</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>rrhh1</userName>
+      <roleName>Responsable división</roleName>
+      <groupName>Departamento RRHH</groupName>
+    </membership>
+    <membership>
+      <userName>rrhh2</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Departamento RRHH</groupName>
+    </membership>
+    <membership>
+      <userName>directivo1</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Directivos</groupName>
+    </membership>
+    <membership>
+      <userName>directivo2</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Directivos</groupName>
+    </membership>
+    <membership>
+      <userName>comercial1</userName>
+      <roleName>Responsable división</roleName>
+      <groupName>Departamento Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>comercial2</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Departamento Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>rrii1</userName>
+      <roleName>Responsable división</roleName>
+      <groupName>Departamento de Relaciones Internacionales</groupName>
+    </membership>
+    <membership>
+      <userName>rrii2</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Departamento de Relaciones Internacionales</groupName>
+    </membership>
+    <membership>
+      <userName>existencias1</userName>
+      <roleName>Responsable división</roleName>
+      <groupName>Departamento de Existencias</groupName>
+    </membership>
+    <membership>
+      <userName>existencias2</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Departamento de Existencias</groupName>
+    </membership>
+    <membership>
+      <userName>trabajador1</userName>
+      <roleName>Responsable división</roleName>
+      <groupName>Departamento de Fabricación</groupName>
+    </membership>
+    <membership>
+      <userName>trabajador2</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Departamento de Fabricación</groupName>
+    </membership>
+    <membership>
+      <userName>trabajador3</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Departamento de Fabricación</groupName>
+    </membership>
+    <membership>
+      <userName>trabajador4</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Departamento de Fabricación</groupName>
+    </membership>
+    <membership>
+      <userName>trabajador5</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Departamento de Fabricación</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.13.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.AsignacionTarea">
+            <fields>
+                <field type="STRING" length="255" name="encargadoBebida" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="encargadoBotellas" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="encargadoCaja" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="encargadoEmpaquetado" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.ComentariosFabricacion">
+            <fields>
+                <field type="DOUBLE" length="255" name="botellasCosteTotal" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="botellasRotas" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="botellasHora" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="botellasComentarios" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="liquidoCosteTotal" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="liquidoDesperdiciado" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="litrosHora" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="liquidoComentarios" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="cajasCosteTotal" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="cajasRotas" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="cajasHora" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="cajasComentarios" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="comentariosEnsamblado" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.CompraProductos">
+            <fields>
+                <field type="DOUBLE" length="255" name="presupuesto" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="tapones" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="botellas" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="cajas" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Producto" fetchType="LAZY" name="producto" nullable="true" collection="true"/>
+                <field type="INTEGER" length="255" name="unidades" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.EmpleadoFabricacion">
+            <fields>
+                <field type="STRING" length="255" name="nombre" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Pedido">
+            <fields>
+                <field type="STRING" length="255" name="fecha" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="comercial" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Producto" fetchType="LAZY" name="producto" nullable="true" collection="true"/>
+                <field type="BOOLEAN" length="255" name="aceptado" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="unidades" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Producto">
+            <fields>
+                <field type="STRING" length="255" name="tipo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nombre" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="coste" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="precio" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="caja" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="botella" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="etiqueta" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="disponibilidad" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
